@@ -86,7 +86,7 @@ this will switch into login branch.
 this will merge the login branch into the master branch.
 
 16. If we want to add and commit the file in short way, we can write this command:
-''' bash
+``` bash
    git commit -am "Initial commit"
 ``` 
 this will add the all files and commit it.
