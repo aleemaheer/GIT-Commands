@@ -91,6 +91,35 @@ this will merge the login branch into the master branch.
 ``` 
 this will add the all files and commit it.
 
+17. If we want to track the history, that who changes and when we use a command that is written below:
+``` bash 
+   git log
+```
+
+18. If i want to check that how many i have total branches we can write this command:
+``` bash
+   git branch
+```
+this will checks that how many i have branches.
+
+19. If we want to unstage the file from the git repository we can write this command:
+``` bash
+   git reset [name of file]
+```
+this will discard the changes in the file we have added.
+
+20. If we want to unstage all files from the git repository we can write this command:
+``` bash
+   git reset
+```
+this will unstage all files from the git repository.
+
+21. If we want to reset the commit, we can write this command:
+``` bash
+   git reset --hard <commit>
+```
+this will reset the commit.
+
 #
 
 ## Making a repository on github
