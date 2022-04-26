@@ -138,6 +138,10 @@ this will reset the commit.
     git push -u <name of remote> <branch name>
 ```
 this will push the specified branch to the specified remote.
+26. If we want to remove a remote we can write the command:
+``` bash
+   git remote rm <name of remote>
+```
 
 ## Making a repository on github
 
