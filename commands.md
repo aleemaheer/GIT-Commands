@@ -1,4 +1,4 @@
-# Git commands :
+## Git commands 🚀
 1. If we want to create a new file, we can create a file using terminal by typing command:
  ``` bash
     touch index.html
@@ -188,4 +188,5 @@ this will checks that everything is up-to-date, if not updated this will pull th
    git clone "URL"
 ```
 
-Thanks for reading this.
+😍 Made with 💗
+😍 Thanks for reading 👋
