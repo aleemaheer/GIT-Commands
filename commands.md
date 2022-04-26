@@ -125,7 +125,19 @@ this will reset the commit.
    git fetch --all
 ```
 
-#
+23. To check how many origin i have use the following command: 
+```bash
+    git remote -v
+```
+24. To fetch the master branch from alt and pull it into your current head, do:
+```bash
+    git pull alt master
+```
+25. To push a specific remote use the command:
+```bash
+    git push -u <name of remote> <branch name>
+```
+this will push the specified branch to the specified remote.
 
 ## Making a repository on github
 
@@ -190,3 +202,4 @@ this will checks that everything is up-to-date, if not updated this will pull th
 
 😍 Made with 💗
 😍 Thanks for reading 👋
+😍 Please star this repository if you found this helpful 🔥
