@@ -1,9 +1,9 @@
 # Git commands :
-1. touch command => this command is not a git command. This is a linux command to create a new file. Syntax
+1. If we want to create a new file, we can create a file using terminal by typing command:
  ``` bash
     touch index.html
 ```
-this will create a new index.html file.
+This is a linux command, this will create a new index.html file.
 
 2. To create a new repository we use a git command which is written below:
  ``` bash
@@ -59,7 +59,7 @@ this will remove the index.html file from the git repository.
 ``` bash
    clear
 ```
-this will clear the screen.
+this will clear the screen, this is a linux command.
 
 12. If we want to ignore the files. Than we have to make a file by writing the following command:
 ``` bash
@@ -100,7 +100,7 @@ this will add the all files and commit it.
 ``` bash
    git branch
 ```
-this will checks that how many i have branches.
+this will list all the branches we have.
 
 19. If we want to unstage the file from the git repository we can write this command:
 ``` bash
@@ -120,33 +120,70 @@ this will unstage all files from the git repository.
 ```
 this will reset the commit.
 
+22. If we have to pull or fetch the other branches from the remote, we can write command:
+``` bash
+   git fetch --all
+```
+
 #
 
 ## Making a repository on github
 
-If we want to make a repository on github, than we have to write:
+* First write a command to initialize a empty git repository by writing command:
 ``` bash
-   git remote add origin "URL"
+   git init
 ```
-Next step is to write another git command that is written below:
+this will create initialize a empty git repository.
+
+* Next we have to add the files and commit them.
+
+* We can add files by command:
+``` bash
+   git add <name of file>
+```
+this will add a specified file
+
+* If you want to add all the files in one command you can write:
+``` bash
+   git add .
+```
+this will add the files to the repository.
+
+* Now we have to commit our changes by typing command: 
+``` bash
+   git commit -m "<commit message>"
+```
+
+* Now we have to add a remote to our repository by a command:
+``` bash
+   git remote add <name of remote> "URL"
+```
+this will add a remote to your repository, you will get the URL when creating a repository on github.
+
+* Now we have add the files, committed them, added a remote (where it will be pushed) and now we have to push it to github, we can write the command:
+``` bash
+   git push -u <name of remote> <name of branch>
+```
+By default our first branch is master, so if you have only one branch you can write master in the branch name like this, assuming that you have a remote of name origin:
 ``` bash
    git push -u origin master
 ```
-We can also get these two commands from the github when creating a new repository.
 
-If we want to push new files to the github repository we can just write the following git command:
+* We can also get these commands from the github when creating a new repository.
+
+* Next time, if we have done some changes, we have to add the file, commit it and push it by typing this command:
 ``` bash
    git push
 ```
 this will push the new files to the github.
 
-If we want to check that everything is up-to-date, we can write this command:
+* If we are working in a team then we can pull or fetch the other's team members code by typing command:
 ``` bash
    git pull
 ```
-this will checks that everything is up-to-date.
+this will checks that everything is up-to-date, if not updated this will pull the code from the remote.
 
-If we want to get the files from the github repositories we can write this command:
+* If we want to clone a repository we can write a command:
 ``` bash
    git clone "URL"
 ```
