@@ -142,6 +142,14 @@ this will push the specified branch to the specified remote.
 ``` bash
    git remote rm <name of remote>
 ```
+27. To see the logs of commits, we can use the command:
+``` bash
+   git log
+```
+28. Also we can use another command to see the logs in detail:
+``` bash
+   git whatchanged
+```
 
 ## Making a repository on github
 
