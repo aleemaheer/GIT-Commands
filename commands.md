@@ -146,10 +146,13 @@ this will push the specified branch to the specified remote.
 ``` bash
    git log
 ```
+this will show the authoer name, date, commit message, commit id.
+
 28. Also we can use another command to see the logs in detail:
 ``` bash
    git whatchanged
 ```
+this will show the more details as compared to the result of command **git log**. 
 
 ## Making a repository on github
 
