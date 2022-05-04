@@ -154,6 +154,12 @@ this will show the authoer name, date, commit message, commit id.
 ```
 this will show the more details as compared to the result of command **git log**. 
 
+29. If we want to remove a git repository, we can use the command:
+``` bash
+   rm -rf .git*
+```
+this will remove the git repository
+
 ## Making a repository on github
 
 * First write a command to initialize a empty git repository by writing command:
