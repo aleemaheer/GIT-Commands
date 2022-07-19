@@ -160,6 +160,12 @@ this will show the more details as compared to the result of command **git log**
 ```
 this will remove the git repository
 
+30. If we want to revert the last commit we can use the command:
+``` bash
+   git reset soft HEAD~1
+```
+this will revert the latest commit, but the files will be remain staged.
+
 ## Making a repository on github
 
 * First write a command to initialize a empty git repository by writing command:
