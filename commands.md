@@ -69,7 +69,7 @@ this will create a gitignore file, than we have to write the name of the file in
 
 13. If we want to create another branch, than we have to write the following git command:
 ``` bash
-   git brach login
+   git branch login
 ```
 this will create a new branch named login.
 
