@@ -166,6 +166,11 @@ this will remove the git repository
 ```
 this will revert the latest commit, but the files will be remain staged.
 
+31. We can rename a branch name by a command:
+```bash
+   git branch -m new-branch-name
+```
+
 ## Making a repository on github
 
 * First write a command to initialize a empty git repository by writing command:
